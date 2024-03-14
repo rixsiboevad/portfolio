@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(241, 199, 199);
+}
+
+img {
+    width: 50%;
+    height: 50vh;
+}
+.texts {
+    display: flex;
+}
+.text > h1 {
+    color: black;
+}
+
+.text2 {
+    color: brown;
+   
+}
+
+h5 {
+font-size: 24px;
+color: brown;
+}
+
+a {
+   color: black;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+   text-decoration: none;
+   font-size: 20px;
+
+}
